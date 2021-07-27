@@ -1,0 +1,4 @@
+resolver: nightly-2021-07-23
+packages:
+- .
+extra-deps: []
