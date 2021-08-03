@@ -24,4 +24,7 @@ in pkgs.haskell-nix.project {
     name = "haskell-nix-project";
     src = ./.;
   };
+  modules = [{
+    reinstallableLibGhc = true;
+  }];
 }
